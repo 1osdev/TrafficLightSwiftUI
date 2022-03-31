@@ -11,6 +11,8 @@
 		A6477ADC27F4F13D002CAF32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6477ADB27F4F13D002CAF32 /* ContentView.swift */; };
 		A6477ADE27F4F148002CAF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6477ADD27F4F148002CAF32 /* Assets.xcassets */; };
 		A6477AE127F4F148002CAF32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6477AE027F4F148002CAF32 /* Preview Assets.xcassets */; };
+		A6477AEA27F63034002CAF32 /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6477AE927F63034002CAF32 /* ColorLight.swift */; };
+		A6477AEC27F63554002CAF32 /* ColorButtonPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6477AEB27F63554002CAF32 /* ColorButtonPress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A6477ADB27F4F13D002CAF32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6477ADD27F4F148002CAF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6477AE027F4F148002CAF32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6477AE927F63034002CAF32 /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		A6477AEB27F63554002CAF32 /* ColorButtonPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtonPress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A6477AD927F4F13D002CAF32 /* TrafficLightSwiftUIApp.swift */,
 				A6477ADB27F4F13D002CAF32 /* ContentView.swift */,
+				A6477AE927F63034002CAF32 /* ColorLight.swift */,
+				A6477AEB27F63554002CAF32 /* ColorButtonPress.swift */,
 				A6477ADD27F4F148002CAF32 /* Assets.xcassets */,
 				A6477ADF27F4F148002CAF32 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6477AEA27F63034002CAF32 /* ColorLight.swift in Sources */,
+				A6477AEC27F63554002CAF32 /* ColorButtonPress.swift in Sources */,
 				A6477ADC27F4F13D002CAF32 /* ContentView.swift in Sources */,
 				A6477ADA27F4F13D002CAF32 /* TrafficLightSwiftUIApp.swift in Sources */,
 			);
@@ -275,6 +283,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -286,7 +295,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +313,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,7 +325,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
